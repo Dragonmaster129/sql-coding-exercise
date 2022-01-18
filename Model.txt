@@ -1,0 +1,29 @@
+How I set it up.
+
+Made a table for students
+Add Key column
+Add column for Name
+Add column for Email
+
+Made a table for professors
+Add Key column
+Add column for Name
+Add column for Email
+
+Made a table for courses
+Add Key column
+Add column for connecting to professors id
+Foreign key to professors id
+
+Made a table for courses-students
+Add Key column (I titled it connection_id)
+Add column for connecting to courses
+Foreign key to courses_id
+Add column for connecting to students
+Foreign key to students_id
+
+Made a table for grades
+Add Key column
+Add column for connecting to courses_students
+Foreign key to connection_id
+Add column for grades_score
